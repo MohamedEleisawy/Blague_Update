@@ -104,12 +104,10 @@ if (isset($_POST['reaction'])) {
             <a href="ajouter.php">Ajouter une blague</a>
         </section>
     </main>
-    <footer>
-        <p> © 2024 Mohamed Eleisawy </p>
-    </footer>
     <div id="reactionPercentages">
         <?php echo $reactionPercentages; ?>
     </div>
+ 
     <script src="./asset/js/app.js"></script>
 </body>
 </html>
